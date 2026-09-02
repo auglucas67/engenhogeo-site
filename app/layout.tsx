@@ -1,6 +1,7 @@
 import type { Metadata } from 'next';
 import './globals.css';
 import './override.css';
+import './pages.css';
 import { FloatingContacts } from './components/FloatingContacts';
 import { SiteHeader } from './components/SiteHeader';
 
