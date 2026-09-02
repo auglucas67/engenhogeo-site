@@ -4,8 +4,9 @@ import './override.css';
 import './pages.css';
 import { FloatingContacts } from './components/FloatingContacts';
 import { SiteHeader } from './components/SiteHeader';
+import { SiteFooter } from './components/SiteFooter';
 
 export const metadata: Metadata = { title: 'EngenhoGeo | Engenharia e Geotecnologia', description: 'Soluções completas de engenharia para o desenvolvimento urbano e corporativo.' };
 
-export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) { return <html lang="pt-BR"><body><SiteHeader />{children}<FloatingContacts /><footer><span>© {new Date().getFullYear()} EngenhoGeo</span><span>Engenharia e geotecnologia para decisões que permanecem.</span></footer></body></html>; }
+export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) { return <html lang="pt-BR"><body><SiteHeader />{children}<FloatingContacts /><SiteFooter /></body></html>; }
 
