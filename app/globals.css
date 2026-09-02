@@ -4,3 +4,5 @@
 
 
 .header .brand{background-size:cover}
+
+.header .brand{width:240px;height:66px;background-size:cover}@media(max-width:560px){.header .brand{width:175px;height:52px}}
