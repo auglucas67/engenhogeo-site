@@ -1,0 +1,2 @@
+export default function Clientes() { return <main className="page"><p className="eyebrow">CLIENTES</p><h1>Parcerias que geram <em>confiança.</em></h1><p className="lead">Cada projeto é tratado com proximidade, clareza e compromisso técnico. Esta página está preparada para receber depoimentos, logos e resultados autorizados pelos clientes.</p><section className="testimonial"><q>A solução certa começa com a leitura precisa do desafio.</q><span>EngenhoGeo • Engenharia e Geotecnologia</span></section></main>; }
+
