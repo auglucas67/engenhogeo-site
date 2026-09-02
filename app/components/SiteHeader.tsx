@@ -1,5 +1,5 @@
 'use client';
-import Link from 'next/link';
+import Link from './Link';
 import { usePathname } from 'next/navigation';
 import { useState } from 'react';
 const links = [['Home', '/'], ['Quem Somos', '/quem-somos'], ['Nossos Serviços', '/servicos'], ['Cases', '/cases'], ['Clientes', '/clientes'], ['Contato', '/contato']];
