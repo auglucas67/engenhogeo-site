@@ -1,18 +1,2 @@
-/* Correções de identidade visual: fundo branco e logo original fornecida. */
-body { background: #fff; }
-.intro, .method-copy, .projects { background: #fff; }
-.brand {
-  width: 220px;
-  height: 64px;
-  background: #fff url('/engenhogeo-logo-clean.png') center center / contain no-repeat;
-  overflow: hidden;
-}
-.brand span { display: none; }
-footer .brand {
-  width: 160px;
-  height: 46px;
-  background-size: contain;
-}
-.hero-overlay { background: rgba(3, 28, 54, .68); }
-.method-image:after, .project:after { background: rgba(3, 28, 54, .46); }
+/* Ajustes adicionais de identidade visual da EngenhoGeo. */
 
