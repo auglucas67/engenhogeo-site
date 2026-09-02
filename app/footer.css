@@ -3,3 +3,11 @@
 .site-footer .footer-email{font-size:10px;letter-spacing:-.35px}.site-footer .footer-logo{background-size:cover}@media(max-width:480px){.site-footer .footer-email{font-size:9px}}
 
 .site-footer .footer-contact,.site-footer .footer-address{font-size:12px}.site-footer .footer-email{font-size:9px;letter-spacing:-.25px}.site-footer .footer-logo{background-image:url('/engenhogeo-logo-dark.png');background-size:140% auto;background-color:#101114;background-position:center}
+
+/* Dados de contato: não invadem a coluna seguinte em telas estreitas. */
+.site-footer .footer-contact.footer-email{gap:10px;font-size:10px!important;letter-spacing:-.45px}
+.site-footer .footer-contact.footer-email>span:last-child{white-space:nowrap}
+.site-footer .footer-address{gap:10px;font-size:11px!important;line-height:1.45}
+.site-footer .footer-address>span:last-child{white-space:nowrap}
+@media(max-width:820px){.site-footer .footer-contact.footer-email{font-size:8px!important;letter-spacing:-.3px}.site-footer .footer-address{font-size:10px!important}}
+@media(max-width:480px){.site-footer .footer-contact.footer-email{font-size:10px!important}.site-footer .footer-address>span:last-child{white-space:normal}}
