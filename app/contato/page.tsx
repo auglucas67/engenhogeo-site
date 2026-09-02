@@ -1,0 +1,3 @@
+import Link from 'next/link';
+export default function Contato() { return <main className="page contact-page"><p className="eyebrow gold-text">CONTATO</p><h1>O próximo passo começa <em>aqui.</em></h1><p className="lead">Conte o que você precisa. Nossa equipe retorna com a direção técnica mais adequada para o seu projeto.</p><section className="contact-card"><h2>Fale com nossos especialistas</h2><p>Os canais de telefone, WhatsApp e e-mail serão ativados assim que os dados comerciais forem informados.</p><Link className="button gold" href="/">Voltar para a Home <span>↗</span></Link></section></main>; }
+
