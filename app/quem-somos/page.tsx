@@ -1,4 +1,4 @@
-import Link from 'next/link';
+import Link from '../components/Link';
 
 const principles = [['Rigor técnico', 'Cada decisão é fundamentada em dados, normas e responsabilidade profissional.'], ['Clareza', 'Traduzimos informações complexas em orientação objetiva para o cliente.'], ['Proximidade', 'Acompanhamos o projeto do início ao fim, com comunicação direta.']];
 
