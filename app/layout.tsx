@@ -15,7 +15,7 @@ const businessSchema = {
   url: 'https://engenhogeo.com.br',
   logo: 'https://engenhogeo.com.br/engenhogeo-logo-dark.png',
   image: 'https://engenhogeo.com.br/engenhogeo-logo-dark.png',
-  description: 'Engenharia, geotecnologia, topografia, projetos e estudos técnicos para o desenvolvimento urbano e corporativo.',
+  description: 'Projetos de engenharia, geotecnologia, topografia e estudos técnicos para o desenvolvimento urbano, corporativo e público.',
   email: 'comercial@engenhogeo.com.br',
   telephone: '+55-31-99812-9682',
   address: {
@@ -27,7 +27,7 @@ const businessSchema = {
     addressCountry: 'BR',
   },
   areaServed: 'Brasil',
-  serviceType: ['Topografia', 'Georreferenciamento', 'Projetos de Engenharia', 'Estudos Técnicos', 'BIM', 'Regularização Fundiária'],
+  serviceType: ['Topografia', 'Georreferenciamento', 'Projetos de Engenharia', 'Projetos de Infraestrutura', 'Projetos Urbanos', 'Estudos Técnicos', 'BIM', 'Regularização Fundiária'],
 };
 
 const websiteSchema = {
@@ -40,8 +40,8 @@ const websiteSchema = {
 export const metadata: Metadata = {
   metadataBase: new URL('https://engenhogeo.com.br'),
   title: { default: 'EngenhoGeo | Engenharia e Geotecnologia', template: '%s | EngenhoGeo' },
-  description: 'Soluções completas de engenharia para o desenvolvimento urbano e corporativo.',
-  keywords: ['engenharia', 'geotecnologia', 'topografia', 'georreferenciamento', 'estudos técnicos', 'BIM', 'regularização fundiária'],
+  description: 'Soluções completas em projetos de engenharia, geotecnologia, topografia e estudos técnicos para o desenvolvimento urbano e corporativo.',
+  keywords: ['engenharia', 'projetos de engenharia', 'projetos técnicos', 'projetos de infraestrutura', 'projetos urbanos', 'geotecnologia', 'topografia', 'georreferenciamento', 'estudos técnicos', 'BIM', 'regularização fundiária'],
   robots: { index: true, follow: true },
   openGraph: { type: 'website', locale: 'pt_BR', siteName: 'EngenhoGeo', url: 'https://engenhogeo.com.br', images: [{ url: '/og.png', width: 1200, height: 630, alt: 'EngenhoGeo — Engenharia e Geotecnologia' }] },
   twitter: { card: 'summary_large_image', images: ['/og.png'] },

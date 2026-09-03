@@ -4,8 +4,8 @@ import './services.css';
 import './services-extra.css';
 
 export const metadata: Metadata = {
-  title: 'Serviços de Engenharia e Geotecnologia',
-  description: 'Serviços de campo, topografia, georreferenciamento, projetos de engenharia, BIM, estudos técnicos, orçamentos e gestão de obras.',
+  title: 'Projetos e Serviços de Engenharia e Geotecnologia',
+  description: 'Projetos de engenharia, infraestrutura e edificações, além de serviços de campo, topografia, georreferenciamento, BIM, estudos técnicos, orçamentos e gestão de obras.',
   alternates: { canonical: '/servicos' },
 };
 

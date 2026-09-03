@@ -2,8 +2,8 @@ import type { Metadata } from 'next';
 import Link from '../components/Link';
 
 export const metadata: Metadata = {
-  title: 'Cases e Soluções de Engenharia',
-  description: 'Conheça aplicações de engenharia territorial, topografia, mapeamento e infraestrutura conduzidas pela EngenhoGeo.',
+  title: 'Cases e Projetos de Engenharia',
+  description: 'Conheça projetos e soluções de engenharia territorial, topografia, mapeamento e infraestrutura conduzidos pela EngenhoGeo.',
   alternates: { canonical: '/cases' },
 };
 const cases = [['Planejamento territorial', 'Dados que revelam o potencial de cada área.', 'Análise territorial e organização de informações para decisões de implantação.', 'https://images.unsplash.com/photo-1465447142348-e9952c393450?auto=format&fit=crop&w=1200&q=85'], ['Infraestrutura com precisão', 'Medição e controle para obras que avançam.', 'Apoio topográfico, acompanhamento de campo e entrega de bases técnicas confiáveis.', 'https://images.unsplash.com/photo-1503387762-592deb58ef4e?auto=format&fit=crop&w=1200&q=85'], ['Território em perspectiva', 'Tecnologia de campo a serviço de decisões melhores.', 'Mapeamento, cadastro e visualização de dados para gestão de ativos e áreas.', 'https://images.unsplash.com/photo-1473448912268-2022ce9509d8?auto=format&fit=crop&w=1200&q=85']];
