@@ -1,6 +1,13 @@
+import type { Metadata } from 'next';
 import Link from '../components/Link';
 import './services.css';
 import './services-extra.css';
+
+export const metadata: Metadata = {
+  title: 'Serviços de Engenharia e Geotecnologia',
+  description: 'Serviços de campo, topografia, georreferenciamento, projetos de engenharia, BIM, estudos técnicos, orçamentos e gestão de obras.',
+  alternates: { canonical: '/servicos' },
+};
 
 const fieldServices = ['Levantamento topográfico', 'Aerofotogrametria', 'Batimetria', 'Levantamento cadastral de edificações existentes', 'Cadastro técnico multifinalitário', 'Inspeção de infraestrutura urbana e edificações', 'Sondagem SPT, rotativa e a trado', 'Ensaios laboratoriais'];
 const projects: Array<[string, string[]]> = [

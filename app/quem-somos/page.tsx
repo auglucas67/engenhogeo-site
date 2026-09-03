@@ -1,4 +1,11 @@
+import type { Metadata } from 'next';
 import Link from '../components/Link';
+
+export const metadata: Metadata = {
+  title: 'Sobre a EngenhoGeo',
+  description: 'Conheça a EngenhoGeo: engenharia e geotecnologia com experiência de campo, rigor técnico e visão territorial.',
+  alternates: { canonical: '/quem-somos' },
+};
 
 const principles = [['Rigor técnico', 'Cada decisão é fundamentada em dados, normas e responsabilidade profissional.'], ['Clareza', 'Traduzimos informações complexas em orientação objetiva para o cliente.'], ['Proximidade', 'Acompanhamos o projeto do início ao fim, com comunicação direta.']];
 

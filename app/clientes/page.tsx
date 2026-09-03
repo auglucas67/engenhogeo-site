@@ -1,4 +1,11 @@
+import type { Metadata } from 'next';
 import Link from '../components/Link';
+
+export const metadata: Metadata = {
+  title: 'Clientes e Setores Atendidos',
+  description: 'A EngenhoGeo atende desenvolvimento urbano, empresas, proprietários rurais, infraestrutura, obras e gestão patrimonial.',
+  alternates: { canonical: '/clientes' },
+};
 const sectors = ['Desenvolvimento urbano', 'Empreendimentos corporativos', 'Proprietários rurais', 'Infraestrutura e obras', 'Gestão patrimonial', 'Consultorias e parceiros técnicos'];
 export default function Clientes() { return <main className="page"><p className="eyebrow">CLIENTES</p><h1>Parcerias que geram <em>confiança.</em></h1><p className="lead">Trabalhamos com clientes que precisam transformar território, dados e exigências técnicas em caminhos viáveis para seus empreendimentos.</p><section className="sectors"><p className="eyebrow">PARA QUEM ATUAMOS</p><div>{sectors.map((sector,index)=><article key={sector}><span>0{index+1}</span><h2>{sector}</h2></article>)}</div></section><section className="testimonial"><q>Uma parceria técnica deve simplificar a decisão, dar visibilidade ao processo e entregar segurança.</q><span>ENGENHOGEO • ENGENHARIA E GEOTECNOLOGIA</span></section><section className="cta-band"><div><p className="eyebrow light">VAMOS TRABALHAR JUNTOS</p><h2>Conte-nos o que seu projeto <em>precisa.</em></h2></div><Link className="button gold" href="/contato">Falar com a equipe <span>↗</span></Link></section></main>; }
 
