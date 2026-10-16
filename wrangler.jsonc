@@ -1,0 +1,15 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "engenhogeo",
+  "account_id": "4e722e31c7ba2fbe19fa6aef2980e559",
+  "compatibility_date": "2026-10-16",
+  "main": "cloudflare/worker.mjs",
+  "workers_dev": true,
+  "assets": {
+    "binding": "ASSETS",
+    "directory": "./out",
+    "html_handling": "auto-trailing-slash",
+    "not_found_handling": "404-page",
+    "run_worker_first": true
+  }
+}
