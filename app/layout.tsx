@@ -11,7 +11,7 @@ const businessSchema = {
   '@context': 'https://schema.org',
   '@type': 'ProfessionalService',
   name: 'EngenhoGeo',
-  alternateName: 'EngenhoGeo Engenharia e Geotecnologia',
+  alternateName: ['Engenho Geo', 'Geo Engenho', 'EngenhoGeo Engenharia e Geotecnologia'],
   url: 'https://engenhogeo.com.br',
   logo: 'https://engenhogeo.com.br/engenhogeo-logo-dark.png',
   image: 'https://engenhogeo.com.br/engenhogeo-logo-dark.png',
@@ -34,6 +34,7 @@ const websiteSchema = {
   '@context': 'https://schema.org',
   '@type': 'WebSite',
   name: 'EngenhoGeo',
+  alternateName: ['Engenho Geo', 'Geo Engenho'],
   url: 'https://engenhogeo.com.br',
 };
 
